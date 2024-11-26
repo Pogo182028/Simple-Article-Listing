@@ -11,54 +11,88 @@
       sizes="96x96"
     />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./output.css" />
 
     <title>Simple Article Listing | devChallenges.io</title>
   </head>
-  <body>
-    <header>
-      <h1>We release interesting articles about technology</h1>
-      <img src="/resources/Seperator.svg" alt="Seperator" />
+  <body class="font-poppins">
+    <header class="mb-8">
+      <h1 class="text-center text-4xl font-semibold p-12">
+        We release interesting articles about <br />
+        technology
+      </h1>
+      <img
+        class="mx-auto block"
+        src="/resources/Seperator.svg"
+        alt="Seperator"
+      />
     </header>
 
-    <main>
-      <section>
-        <img src="/resources/photo_1.png" alt="photo_1 image" />
+    <main class="max-w-[90%] lg:max-w-[72%] xl:max-w-[58%] mx-auto">
+      <section class="flex items-center gap-16 mb-12">
+        <img
+          class="rounded-xl"
+          src="/resources/photo_1.png"
+          alt="photo_1 image"
+        />
         <div>
-          <h2>
+          <h2 class="font-semibold text-xl mb-5">
             Unlocking the Power of Cloud Computing: A Guide to Scalable
             Solutions
           </h2>
-          <p>November 12, 2024</p>
+          <p class="text-sm text-[#4D5562]">November 12, 2024</p>
         </div>
       </section>
 
-      <section>
-        <img src="/resources/photo_3.png" alt="photo_1 image" />
+      <section class="flex items-center gap-16 mb-12">
+        <img
+          class="rounded-xl"
+          src="/resources/photo_3.png"
+          alt="photo_3 image"
+        />
         <div>
-          <h2>
+          <h2 class="font-semibold text-xl mb-5">
             The Future of AI: How Machine Learning is Revolutionizing Industries
           </h2>
-          <p>November 12, 2024</p>
+          <p class="text-sm text-[#4D5562]">November 12, 2024</p>
         </div>
       </section>
 
-      <section>
-        <img src="/resources/photo_2.png" alt="photo_1 image" />
+      <section class="flex items-center gap-16">
+        <img
+          class="rounded-xl"
+          src="/resources/photo_2.png"
+          alt="photo_2 image"
+        />
         <div>
-          <h2>
+          <h2 class="font-semibold text-xl mb-5">
             The Impact of 5G on Business: How Faster Networks are Transforming
             the Way We Work
           </h2>
-          <p>November 12, 2024</p>
+          <p class="text-sm text-[#4D5562]">November 12, 2024</p>
         </div>
       </section>
     </main>
-    <div>
+
+    <div class="text-center pt-5">
       Coded by
-      <a href="https://github.com/Pogo182028">Dunston Madariaga</a>
+      <a class="text-blue-400" href="https://github.com/Pogo182028"
+        >Dunston Madariaga</a
+      >
       | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+      <a
+        class="text-blue-400"
+        href="https://www.devchallenges.io?ref=challenge"
+        target="_blank"
         >devChallenges.io</a
       >.
     </div>
